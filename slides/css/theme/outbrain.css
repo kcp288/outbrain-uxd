@@ -195,6 +195,7 @@ body {
   vertical-align: sub; }
 
 .reveal small {
+  text-align: center;
   display: inline-block;
   font-size: 11pt;
   line-height: 1.7em;
@@ -229,7 +230,8 @@ body {
 .reveal section img {
   margin: 25px 0px;
   background: transparent;
-  border: transparent; }
+  border: 2px solid #DADBE1;
+  border-radius: 3px; }
 
 .reveal section img.plain {
   border: 0;
@@ -312,3 +314,23 @@ body {
 
 .reveal .card-label {
   font-size: 18px; }
+
+.reveal button {
+  display: inline-block;
+  padding: 13px 20px 13px 20px;
+  margin: 30px 30px 30px 0px;
+  outline: none;
+  color: white;
+  background-color: #6B1E4B;
+  border: 0;
+  border-radius: 3px;
+  font: 300 13pt "Open Sans", Helvetica, Arial, sans-serif;
+  text-decoration: none; }
+
+.reveal button:hover {
+  background-color: #450A2D; }
+
+.reveal hr {
+  border: 1px solid #DADBE1;
+  margin: 5px;
+  margin-top:20px; }
