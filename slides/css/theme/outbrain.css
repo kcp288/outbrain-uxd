@@ -234,6 +234,7 @@ body {
   border: transparent; }
 
 .reveal section img.plain {
+
   border: 0;
   box-shadow: none; }
 
@@ -329,4 +330,23 @@ body {
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
     image-rendering: auto;
+}
+#crown{
+  display:block;
+    margin: 0 auto;
+  background: transparent;
+  border: transparent; 
+  border: 0;
+  box-shadow: none;
+    width: 191px;
+    height: 207px;
+    background-image: url('../../images/amelia.png');
+}
+#crown:hover {
+  width: 191px;
+  height: 207px;
+  margin-bottom:0px;
+  background-repeat:no-repeat;
+  background-position: bottom; 
+  background-image: url('../../images/amee.png');
 }
