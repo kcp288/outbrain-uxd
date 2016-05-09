@@ -195,7 +195,7 @@ body {
   vertical-align: sub; }
 
 .reveal small {
-  display: inline-block;
+  display: block;
   font-size: 11pt;
   line-height: 1.7em;
   vertical-align: top; }
@@ -312,3 +312,10 @@ body {
 
 .reveal .card-label {
   font-size: 18px; }
+
+.reveal .shots{
+  border: 2px solid #DADBE1;
+  border-radius: 3px;
+  position: block;
+  margin-top:0px;
+}
